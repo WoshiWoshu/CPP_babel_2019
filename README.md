@@ -5,7 +5,9 @@ The server network side is implemented using "Boost Asio",  uses "PortAudio3 for
 The client side uses "Qt Network" and "Qt" respectively for the network and graphical implementation. In addition there is a list of contacts (to add and delete people), and there are call, hang up and mute functionalities. However it is not possible to make a group call, there no id/register portal and thus the DataBase using "sqlite3" doesn't work properly for storing client + contact list.
 The project is OS independent, and compile using "Cmake" on linux + windows. The dependencies are handled using "Conan".
 
-PREREQUISITES : Conan, Qt, Opus, PortAudio3, sqlite3 must be installed.
+PREREQUISITES :
+
+Conan, Qt, Opus, PortAudio3, sqlite3 must be installed.
 
 USAGE : 
 
