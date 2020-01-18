@@ -13,4 +13,4 @@ USAGE :
 
 1) mkdir build && cd build && conan install .. && cmake .. -G “Unix Makefiles” && cmake –build .
 
-2) ./babel_client, + ./babel_server
+2) ./babel_client + ./babel_server
