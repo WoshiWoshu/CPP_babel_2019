@@ -7,10 +7,12 @@ The project is OS independent, and compile using "Cmake" on linux + windows + ma
 
 PREREQUISITES :
 
-Conan, Qt, Opus, PortAudio3, sqlite3 must be installed.
+    Conan, Qt, Opus, PortAudio3, sqlite3 must be installed.
 
 USAGE : 
 
-1) mkdir build && cd build && conan install .. && cmake .. -G “Unix Makefiles” && cmake –build .
+    mkdir build && cd build && conan install .. && cmake .. -G “Unix Makefiles” && cmake –build .
 
-2) ./babel_client + ./babel_server
+    ./babel_client
+    
+    ./babel_server
